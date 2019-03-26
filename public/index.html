@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="top">
+        <h1>Survey Form</h1>
+    </div>
+    </div>
+    <main>
+        <h1 id="title">Tell us about you!</h1>
+        <p id="description">
+            Help us learn more about you by replying to this form.
+        </p>
+        <form action="#" id="survey-form">
+            <div>
+                <label for="name" id="name-label">Name:
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </label><br /><br />
+            </div>
+            <label for="email" id="email-label">Email:
+                <input type="email" id="email" placeholder="Enter your e-mail" required>
+            </label><br /><br />
+            <label for="number" id="number-label">Age:
+                <input type="number" max="130" min="8" id="number" placeholder="age" required>
+            </label><br /><br />
+            <label for="dropdown1" id="dropdown-label">What do you do when everyone is watching?
+                <select id="dropdown1" name="dropdown1">
+                    <option disabled value="">Select option</option>
+                    <option value="student">Student</option>
+                    <option value="fulltimejob">Full Time Job</option>
+                    <option value="fulltimelearner">Full Time Learner</option>
+                    <option value="nottosay">prefer not to say</option>
+                    <option value="other">Other</option>
+                </select><br /><br />
+            </label>
+            <fieldset>
+                <legend>Do you have a favorite programming language?</legend>
+                <label for="def"><input type="radio" id="def" name="stream_service" value="def">Definitely</label>
+                <label for="may"><input type="radio" id="may" name="stream_service" value="may">Maybe</label>
+                <label for="not"><input type="radio" id="not" name="stream_service" value="may">Not sure</label>
+            </fieldset><br /><br />
+            <label for="dropdown2">What do you do when no one is looking?
+                <select id="dropdown2" name="dropdown2">
+                    <option disabled value="">Select option</option>
+                    <option value="play">Play Cat Mario</option>
+                    <option value="sing">Sing in the bathroom</option>
+                    <option value="dance"> dance irresponsibly</option>
+                    <option value="notsay">prefer not to say</option>
+                    <option value="oth">Other</option>
+                </select><br /><br />
+                <option disabled value="">Select option:</option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>Things that should be improved in the future(Check all that apply):</legend>
+                <label for="front"><input type="checkbox" id="front" name="stream_service" value="front">Front-end
+                    Projects</label>
+                <br />
+                <label for="back"><input type="checkbox" id="back" name="stream_service" value="back">Back-end
+                    Projects</label>
+                <br />
+                <label for="dat"><input type="checkbox" id="dat" name="stream_service" value="dat">Data
+                    visualization</label>
+                <br />
+                <label for="chal"><input type="checkbox" id="chal" name="stream_service" value="chal">Challenges</label>
+                <br />
+                <label for="opens"><input type="checkbox" id="opens" name="stream_service" value="opens">Open Source
+                    Community</label>
+                <br />
+                <label for="gitter"><input type="checkbox" id="gitter" name="stream_service" value="gitter">Gitter help
+                    rooms</label>
+                <br />
+                <label for="videos"><input type="checkbox" id="videos" name="stream_service"
+                        value="videos">Videos</label>
+                <br />
+                <label for="city"><input type="checkbox" id="city" name="stream_service" value="city"> City
+                    Meetups</label>
+                <br />
+                <label for="wiki"><input type="checkbox" id="wiki" name="stream_service" value="wiki"> Wiki</label>
+                <br />
+                <label for="forum"><input type="checkbox" id="forum" name="stream_service" value="forum">Forum</label>
+                <br />
+                <label for="add"><input type="checkbox" id="add" name="stream_service" value="add">Additional
+                    Courses</label>
+            </fieldset>
+            <p>Sugestions and comments:</p>
+            <label for="comments">
+                <div id="rt">
+                    <textarea id="comments" style="height:50px;resize:vertical;" name="comment" cols="40" rows="40"
+                        placeholder="comments"></textarea>
+                </div>
+            </label>
+            <div id="button-container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

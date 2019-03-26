@@ -1,0 +1,23 @@
+{
+  "name": "freecodecamp_survey_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emevonlou/freecodecamp_survey_form.git"
+  },
+  "keywords": [],
+  "author": "Emanuelle Von Lou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emevonlou/freecodecamp_survey_form/issues"
+  },
+  "homepage": "https://github.com/emevonlou/freecodecamp_survey_form#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

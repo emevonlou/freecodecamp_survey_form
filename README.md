@@ -1,12 +1,12 @@
-### Freecodecamp_survey_form
+## Freecodecamp_survey_form
 
-## Project Overview
+### Project Overview
 
 This project is part of the FreeCodeCamp Responsive Web Design certification.
 It demonstrates the creation of a structured and accessible survey form using
 semantic HTML and basic styling principles.
 
-## How to run:
+### How to run:
 
 You need to Node.js installed.
 Clone this repository.
@@ -17,7 +17,7 @@ Open your terminal and run the commands bellow:
   npm start
   ```
 
-## How to Run Locally
+### How to Run Locally
 
 1. Clone the repository:
 
@@ -40,7 +40,7 @@ Open your terminal and run the commands bellow:
 HTML5
 CSS3
 
-## Project Structure
+### Project Structure
 
 freecodecamp_survey_form/
 │
@@ -48,9 +48,13 @@ freecodecamp_survey_form/
 ├── style.css
 └── README.md
 
-## Future Improvements
+### Future Improvements
 
 - Improve accessibility (ARIA roles and labels)
 - Enhance responsive behavior
 - Add validation feedback for better UX
 
+
+### License
+
+This project is open-source and available for educational and learning purposes.

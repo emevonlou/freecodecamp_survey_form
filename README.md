@@ -1,4 +1,4 @@
-## Freecodecamp_survey_form
+# Freecodecamp_survey_form
 
 ### Project Overview
 
@@ -55,6 +55,6 @@ freecodecamp_survey_form/
 - Add validation feedback for better UX
 
 
-### License
+## License
 
-This project is open-source and available for educational and learning purposes.
+This project is open-source and intended for educational purposes as part of the FreeCodeCamp Responsive Web Design certification.

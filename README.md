@@ -58,5 +58,6 @@ freecodecamp_survey_form/
 ## License
 
 This project is open-source and intended for educational purposes as part of the FreeCodeCamp Responsive Web Design certification.
-Minor formatting adjustment.
+Minor documentation refinement.
+
 

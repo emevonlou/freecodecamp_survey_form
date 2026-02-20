@@ -1,7 +1,5 @@
 # Freecodecamp_survey_form
 
-### Project Overview
-
 This project is part of the FreeCodeCamp Responsive Web Design certification.
 It demonstrates the creation of a structured and accessible survey form using
 semantic HTML and basic styling principles.
